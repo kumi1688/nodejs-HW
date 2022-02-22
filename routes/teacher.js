@@ -17,7 +17,6 @@ router.get("/search", (req, res) => {
   const keys = Object.keys(req.query);
 
   // 3. 클라이언트가 보내온 Key의 값과 sample.json에 있는 선생님의 데이터 중에서 조회하고자 하는 것이 있나 확인
-  console.log(keys);
   let filtered = teachers;
   for (key of keys) {
     if (req.query[key] === "") continue;

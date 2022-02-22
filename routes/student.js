@@ -18,10 +18,12 @@ router.get("/search", (req, res) => {
   const keys = Object.keys(req.query);
 
   // 3. 클라이언트가 보내온 Key의 값과 sample.json에 있는 학생 데이터 중에서 조회하고자 하는 것이 있나 확인
+  let filtered = students;
   for (key of keys) {
-    let filtered = students.filter((student) => student[key] == req.query[key]); // 있으면 필터링하고
-    if (filtered.length != 0) students = filtered; // 없다면 그냥 빈 배열 전달
+    if (req.query[key] === "") continue;
+    filtered = filtered.filter((student) => student[key] == req.query[key]);
   }
+  students = filtered;
 
   // 4. 필터링 된 데이터 전달하기
   res.send(students);
