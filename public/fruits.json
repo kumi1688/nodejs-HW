@@ -1,0 +1,132 @@
+[
+  {
+    "GRP_NM": "안성원예농협",
+    "REFINE_ROADNM_ADDR": "경기도 안성시 남파로 129",
+    "REFINE_LOTNO_ADDR": "경기도 안성시 당왕동 211-1번지",
+    "REFINE_ZIPNO": "17568",
+    "REFINE_WGS84_LAT": "37.0171070645",
+    "REFINE_WGS84_LOGT": "127.2645920405",
+    "CONTCT_NM": "031-671-8120",
+    "MAIN_TRTMNT_PRODLST_NM": "배+포도"
+  },
+  {
+    "GRP_NM": "장호원농협",
+    "REFINE_ROADNM_ADDR": "경기도 이천시 장호원읍 서동대로 8633",
+    "REFINE_LOTNO_ADDR": "경기도 이천시 장호원읍 송산리 176-5번지",
+    "REFINE_ZIPNO": "17415",
+    "REFINE_WGS84_LAT": "37.1142256889",
+    "REFINE_WGS84_LOGT": "127.5935697913",
+    "CONTCT_NM": "031-643-0047",
+    "MAIN_TRTMNT_PRODLST_NM": "복숭아+배+사과"
+  },
+  {
+    "GRP_NM": "농사단원천영농조합법인",
+    "REFINE_ROADNM_ADDR": "경기도 안성시 원곡면 지문로 103",
+    "REFINE_LOTNO_ADDR": "경기도 안성시 원곡면 지문리 488번지",
+    "REFINE_ZIPNO": "17553",
+    "REFINE_WGS84_LAT": "37.0501428717",
+    "REFINE_WGS84_LOGT": "127.1355172132",
+    "CONTCT_NM": "031-655-6355",
+    "MAIN_TRTMNT_PRODLST_NM": "배+포도"
+  },
+  {
+    "GRP_NM": "양평공사",
+    "REFINE_ROADNM_ADDR": "경기도 양평군 양평읍 경강로 2401",
+    "REFINE_LOTNO_ADDR": "경기도 양평군 양평읍 대흥리 505-3번지",
+    "REFINE_ZIPNO": "12548",
+    "REFINE_WGS84_LAT": "37.4883346402",
+    "REFINE_WGS84_LOGT": "127.5427583617",
+    "CONTCT_NM": "031-770-4040",
+    "MAIN_TRTMNT_PRODLST_NM": "백미+감자+양파"
+  },
+  {
+    "GRP_NM": "평택원예농협",
+    "REFINE_ROADNM_ADDR": "경기도 평택시 팽성읍 신궁1길 23-28",
+    "REFINE_LOTNO_ADDR": "경기도 평택시 팽성읍 신궁리 140번지",
+    "REFINE_ZIPNO": "18000",
+    "REFINE_WGS84_LAT": "36.9774427175",
+    "REFINE_WGS84_LOGT": "127.0734730364",
+    "CONTCT_NM": "031-657-3738",
+    "MAIN_TRTMNT_PRODLST_NM": "배+블루베리"
+  },
+  {
+    "GRP_NM": "농업회사법인지마크연합사업단㈜",
+    "REFINE_ROADNM_ADDR": "경기도 광주시 초월읍 경안천로 502-34",
+    "REFINE_LOTNO_ADDR": "경기도 광주시 초월읍 무갑리 679-1번지",
+    "REFINE_ZIPNO": "12730",
+    "REFINE_WGS84_LAT": "37.4250950698",
+    "REFINE_WGS84_LOGT": "127.3053874226",
+    "CONTCT_NM": "070-7585-4921",
+    "MAIN_TRTMNT_PRODLST_NM": "감자+고구마"
+  },
+  {
+    "GRP_NM": "수원지구원예농협",
+    "REFINE_ROADNM_ADDR": "경기도 수원시 권선구 세권로 243",
+    "REFINE_LOTNO_ADDR": "경기도 수원시 권선구 권선동 1229번지",
+    "REFINE_ZIPNO": "16561",
+    "REFINE_WGS84_LAT": "37.2548986674",
+    "REFINE_WGS84_LOGT": "127.0304270614",
+    "CONTCT_NM": "031-359-9637",
+    "MAIN_TRTMNT_PRODLST_NM": "양배추+양파+무"
+  },
+  {
+    "GRP_NM": "용인시농협조합공동사업법인",
+    "REFINE_ROADNM_ADDR": "경기도 용인시 처인구 원삼면 죽양대로1763번길 36-2",
+    "REFINE_LOTNO_ADDR": "경기도 용인시 처인구 원삼면 좌항리 761번지",
+    "REFINE_ZIPNO": "17166",
+    "REFINE_WGS84_LAT": "37.1935070411",
+    "REFINE_WGS84_LOGT": "127.3214312619",
+    "CONTCT_NM": "031-339-8822",
+    "MAIN_TRTMNT_PRODLST_NM": "감자+양파+오이"
+  },
+  {
+    "GRP_NM": "한국화훼농협",
+    "REFINE_ROADNM_ADDR": "경기도 고양시 일산서구 대화로 362",
+    "REFINE_LOTNO_ADDR": "경기도 고양시 일산서구 대화동 2324번지",
+    "REFINE_ZIPNO": "10226",
+    "REFINE_WGS84_LAT": "37.6835919434",
+    "REFINE_WGS84_LOGT": "126.7463412799",
+    "CONTCT_NM": "031-910-8102",
+    "MAIN_TRTMNT_PRODLST_NM": "화훼류"
+  },
+  {
+    "GRP_NM": "송탄농협",
+    "REFINE_ROADNM_ADDR": "경기도 평택시 진위면 서탄로 102",
+    "REFINE_LOTNO_ADDR": "경기도 평택시 진위면 하북리 249-3번지",
+    "REFINE_ZIPNO": "17706",
+    "REFINE_WGS84_LAT": "37.1048725420",
+    "REFINE_WGS84_LOGT": "127.0524679620",
+    "CONTCT_NM": "031-611-5280",
+    "MAIN_TRTMNT_PRODLST_NM": "방울토마토+호박+오이"
+  },
+  {
+    "GRP_NM": "일죽농협",
+    "REFINE_ROADNM_ADDR": "경기도 안성시 일죽면 금일로 425",
+    "REFINE_LOTNO_ADDR": "경기도 안성시 일죽면 송천리 253-7번지",
+    "REFINE_ZIPNO": "17529",
+    "REFINE_WGS84_LAT": "37.0901291223",
+    "REFINE_WGS84_LOGT": "127.4767640875",
+    "CONTCT_NM": "031-672-5700",
+    "MAIN_TRTMNT_PRODLST_NM": "감자"
+  },
+  {
+    "GRP_NM": "안성맞춤농협조합공동사업법인",
+    "REFINE_ROADNM_ADDR": "경기도 안성시 대덕면 모산로 148",
+    "REFINE_LOTNO_ADDR": "경기도 안성시 대덕면 모산리 188-1번지",
+    "REFINE_ZIPNO": "17543",
+    "REFINE_WGS84_LAT": "37.0329672057",
+    "REFINE_WGS84_LOGT": "127.2446640494",
+    "CONTCT_NM": "031-677-1855",
+    "MAIN_TRTMNT_PRODLST_NM": "감자+양파+무"
+  },
+  {
+    "GRP_NM": "안중농협",
+    "REFINE_ROADNM_ADDR": "경기도 평택시 안중읍 송담1로 17",
+    "REFINE_LOTNO_ADDR": "경기도 평택시 안중읍 송담리 857-1번지",
+    "REFINE_ZIPNO": "17941",
+    "REFINE_WGS84_LAT": "36.9763331411",
+    "REFINE_WGS84_LOGT": "126.9257115699",
+    "CONTCT_NM": "031-682-8404",
+    "MAIN_TRTMNT_PRODLST_NM": "무+감자+블루베리"
+  }
+]
