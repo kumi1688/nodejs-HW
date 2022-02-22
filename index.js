@@ -17,10 +17,12 @@ app.use(express.urlencoded({ extended: true })); // 클라이언트의 request�
 // 라우팅 모듈 불러오기
 const studentRouter = require("./routes/student");
 const teacherRouter = require("./routes/teacher");
+const universityRouter = require("./routes/university");
 
 // 라우팅 적용
 app.use("/student", studentRouter);
 app.use("/teacher", teacherRouter);
+app.use("/university", universityRouter);
 
 // http://localhost:3000/ 으로 접속하는 요청에 대한 응답 설정
 app.get("/", (req, res) => {
