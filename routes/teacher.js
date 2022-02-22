@@ -6,7 +6,7 @@ const fs = require("fs");
 const sample = require("../public/sample.json");
 
 router.get("/", (req, res) => {
-  res.render("teachers.html");
+  res.render("teacher.html");
 });
 
 router.get("/search", (req, res) => {
@@ -17,10 +17,13 @@ router.get("/search", (req, res) => {
   const keys = Object.keys(req.query);
 
   // 3. 클라이언트가 보내온 Key의 값과 sample.json에 있는 선생님의 데이터 중에서 조회하고자 하는 것이 있나 확인
+  console.log(keys);
+  let filtered = teachers;
   for (key of keys) {
-    let filtered = teachers.filter((teacher) => teacher[key] == req.query[key]); // 있으면 필터링하고
-    if (filtered.length != 0) teachers = filtered; // 없다면
+    if (req.query[key] === "") continue;
+    filtered = filtered.filter((teacher) => teacher[key] == req.query[key]);
   }
+  teachers = filtered;
 
   // 4. 필터링 된 데이터 전달하기
   res.send(teachers);

@@ -34,20 +34,6 @@
       "lastName": "eee",
       "phoneNumber": "010-5555-5555",
       "email": "EEE@ajou.ac.kr"
-    },
-    {
-      "id": 6,
-      "firstName": "123",
-      "lastName": "ㄹ호",
-      "phoneNumber": "ㅂㄷ",
-      "email": "ㄷㅂㄱ"
-    },
-    {
-      "id": 7,
-      "firstName": "ㅎ로",
-      "lastName": "ㄷㄱ",
-      "phoneNumber": "ㅂㅈㄷㅂ",
-      "email": "ㄹㅇㅎㄴㅇㅎ"
     }
   ],
   "teachers": [
