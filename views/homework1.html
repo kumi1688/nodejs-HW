@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <form method="get" action="http://localhost:3000/homework1/search">
+          <div class="form-control m-3">
+            <h2>타이타닉 승객 검색용</h2>
+            <div class="row">
+              <div class="col">
+                <label for="form1" class="form-label">Name</label>
+                <input type="text" name="Name" class="form-control" />
+              </div>
+              <div class="col">
+                <label for="form1" class="form-label">PassengerId</label>
+                <input type="text" name="PassengerId" class="form-control" />
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col">
+                <label for="form1" class="form-label">Survived</label>
+                <select class="form-control" name="Survived" id="inputGroupSelect0">
+                  <option selected>Choose...</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                </select>
+              </div>
+              <div class="col">
+                <label for="inputGroupSelect1" class="form-label">Pclass</label>
+                <select class="form-control" name="Pclass" id="inputGroupSelect1">
+                  <option selected>Choose...</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div class="col">
+                <label for="inputGroupSelect2" class="form-label">Embarked</label>
+                <select class="form-control" name="Embarked" id="inputGroupSelect2">
+                  <option selected>Choose...</option>
+                  <option value="C">C</option>
+                  <option value="Q">Q</option>
+                  <option value="S">S</option>
+                </select>
+              </div>
+              <div class="col">
+                <label for="inputGroupSelect3" class="form-label">Gender</label>
+                <select class="form-control" name="gender" id="inputGroupSelect3">
+                  <option selected>Choose...</option>
+                  <option value="male">male</option>
+                  <option value="female">female</option>
+                </select>
+              </div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div><div class="col"></div><div class="col"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary mt-2">Submit</button>
+        </form>
+      </div>
+      <div>
+      </div>
+  </body>
+</html>
