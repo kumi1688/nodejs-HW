@@ -19,12 +19,14 @@ const studentRouter = require("./routes/student");
 const teacherRouter = require("./routes/teacher");
 const universityRouter = require("./routes/university");
 const homework1Router = require("./routes/homework1");
+const homework2Router = require("./routes/homework2");
 
 // 라우팅 적용
 app.use("/student", studentRouter);
 app.use("/teacher", teacherRouter);
 app.use("/university", universityRouter);
 app.use("/homework1", homework1Router);
+app.use("/homework2", homework2Router);
 
 // http://localhost:3000/ 으로 접속하는 요청에 대한 응답 설정
 app.get("/", (req, res) => {
