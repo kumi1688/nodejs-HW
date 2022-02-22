@@ -14,6 +14,14 @@ app.use(express.static("public")); // public 폴더 안에 있는 정적 파일�
 app.use(express.json()); // 클라이언트의 request가 json 타입으로 오는 경우 parsing 해주는 미들웨어 적용
 app.use(express.urlencoded({ extended: true })); // 클라이언트의 request가 URL(Query)로 오는 경우 parsing 해주는 미들웨어 적용
 
+// 라우팅 모듈 불러오기
+const studentRouter = require("./routes/student");
+const teacherRouter = require("./routes/teacher");
+
+// 라우팅 적용
+app.use("/student", studentRouter);
+app.use("/teacher", teacherRouter);
+
 // http://localhost:3000/ 으로 접속하는 요청에 대한 응답 설정
 app.get("/", (req, res) => {
   res.send("ok");
