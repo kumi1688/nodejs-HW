@@ -28,23 +28,30 @@ router.get("/search", (req, res) => {
 });
 
 router.post("/", (req, res) => {
+  // 1. sample.json에서 학생 데이터만 고르기
   let students = sample.students;
-  console.log(req.body);
-  const keys = Object.keys(req.body);
-  let newStudent = {};
+
+  // 2. 클라이언트가 보내온 데이터를 새로운 학생 데이터로 그대로 옮기기
+  let newStudent = req.body;
+
+  // 3. 새로운 학생의 id는 마지막 학생 id + 1
   newStudent["id"] = students.length + 1;
 
-  for (key of keys) {
-    newStudent[key] = req.body[key];
-  }
+  // 4. 새로운 학생을 기존의 학생 데이터에 추가
   students.push(newStudent);
 
+  // 5. sample 객체에 새로운 학생 데이터로 덮어쓰기
   sample.students = students;
 
+  // 6. sample 객체에 쓰일 데이터 경로 명시
   filePath = path.join(__dirname, "../public/sample.json");
+
+  // 7. 기존의 sample.json을 업데이트된 sample 객체로 덮어쓰기
   fs.writeFile(filePath, JSON.stringify(sample), {}, (err) => {
     if (err) console.log(err);
   });
+
+  // 8. 업데이트 된 학생 데이터를 클라이언트에게 보내기
   res.send(students);
 });
 
